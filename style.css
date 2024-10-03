@@ -1,47 +1,88 @@
 /* style sheet for the SBA DOM project  */
 
-
 flex-around {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-  }
-  
-  body {
-    background: url("https://images.pexels.com/photos/3473569/pexels-photo-3473569.jpeg")
-      no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  }
-  
-  /* nav links style  */
-  nav a {
-    line-height: 4rem;
-    padding: 0 1rem;
-    text-transform: uppercase;
-    text-decoration: none;
-    color: white;
-    margin-left: 10px;
-  }
-  
-  h1 {
-    color: azure;
-    font-family: "Times New Roman", Times, serif;
-    text-align: center;
-  }
-  
-  h3 {
-    color: azure;
-  }
-  
-  .container {
-    border: 1px solid rgba(193, 193, 204, 0.244);
-    margin: 50px;
-    display: flex;
-    justify-content: center;
-    /* align-items: center; */
-    /* min-height: 100vh; vh stands for viewport height */
-  }
-  
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+body {
+  background: url("https://images.pexels.com/photos/3473569/pexels-photo-3473569.jpeg")
+    no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* nav links style  */
+nav a {
+  line-height: 4rem;
+  padding: 0 1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: white;
+  margin-left: 10px;
+}
+
+h2 {
+  color: rgb(197, 24, 15);
+  /* border: 5px solid blue; */
+  text-align: center;
+}
+
+h1 {
+  color: azure;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+}
+
+h3 {
+  color: azure;
+}
+
+.container {
+  border: 1px solid rgba(193, 193, 204, 0.244);
+  margin: 50px;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  /* min-height: 100vh; vh stands for viewport height */
+}
+
+form {
+  background-color: #0f496b4d;
+  /* border: 5px solid rgb(23, 23, 30); */
+  width: 600px;
+  height: 800px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  margin: 10px;
+  padding: 10px;
+}
+
+input {
+  border: 4px solid rgb(182, 188, 193);
+  height: 40px;
+  width: 300px;
+}
+
+.selection {
+  border: 5px solid rgb(238, 237, 236);
+  height: 40px;
+  width: 300px;
+}
+
+#button-submit {
+  border: 5px solid rgb(238, 237, 236);
+  margin: 10px;
+  height: 50px;
+  width: 200px;
+  font-size: medium;
+}
+
+img {
+  color: #e3e6e84a;
+}

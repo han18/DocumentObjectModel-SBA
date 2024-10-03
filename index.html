@@ -10,22 +10,22 @@
   </head>
   <body>
     <header>
-        <nav id="menu"></nav>
-      </header>
-      <!-- The End Of The Header-->
-      <h1>Welcome to the Festival Garden Sign Up Form</h1>
+      <nav id="menu"></nav>
+    </header>
+    <!-- The End Of The Header-->
+    <h1>Welcome to the Festival Garden Sign Up Form</h1>
 
-      <!-- The Beginning of the Form-->
+    <!-- The Beginning of the Form-->
     <div class="container">
-        <form id="form-validation">
-          <h2 class="message-output"></h2>
-          <!-- enter first name-->
-          <input
-            type="text"
-            name="first-input"
-            placeholder="Enter First Name"
-            required
-          />
+      <form id="form-validation">
+        <h2 class="message-output"></h2>
+        <!-- enter first name-->
+        <input
+          type="text"
+          name="first-input"
+          placeholder="Enter First Name"
+          required
+        />
 
         <!-- enter last name-->
         <input
@@ -46,42 +46,41 @@
           required
         />
 
-         <!-- enter email -->
-         <input
-         type="email"
-         name="email-input"
-         placeholder="Enter Email"
-         pattern="^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$"
-         required
-       />
-       <!--enter password -->
-       <input
-         type="password"
-         name="password-input"
-         placeholder="Enter Password"
-         pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$"
-         title="Minimum eight characters, at least one letter and one number:"
-         required
-       />
-       <!-- enter phone -->
-       <input
-         type="tel"
-         name="tel-input"
-         placeholder="Enter Phone Number"
-         required
-       />
-       <!--City Option Selector-->
-       <select class="selection" name="city-location">
-         <option>Select Your Borough</option>
-         <option value="bronx">Thee Bronx</option>
-         <option value="brooklyn">Brooklyn</option>
-         <option value="queens">Queens</option>
-         <option value="manhattan">Manhattan</option>
-       </select>
-       <!--Submit Button-->
-       <button id="button-submit" type="submit">Submit Form</button>
-     </form>
-   </div>
-  
+        <!-- enter email -->
+        <input
+          type="email"
+          name="email-input"
+          placeholder="Enter Email"
+          pattern="^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$"
+          required
+        />
+        <!--enter password -->
+        <input
+          type="password"
+          name="password-input"
+          placeholder="Enter Password"
+          pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$"
+          title="Minimum eight characters, at least one letter and one number:"
+          required
+        />
+        <!-- enter phone -->
+        <input
+          type="tel"
+          name="tel-input"
+          placeholder="Enter Phone Number"
+          required
+        />
+        <!--City Option Selector-->
+        <select class="selection" name="city-location">
+          <option>Select Your Borough</option>
+          <option value="bronx">Thee Bronx</option>
+          <option value="brooklyn">Brooklyn</option>
+          <option value="queens">Queens</option>
+          <option value="manhattan">Manhattan</option>
+        </select>
+        <!--Submit Button-->
+        <button id="button-submit" type="submit">Submit Form</button>
+      </form>
+    </div>
   </body>
 </html>
