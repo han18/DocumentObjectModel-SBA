@@ -1,0 +1,18 @@
+/* style sheet for the SBA DOM project  */
+
+
+flex-around {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  body {
+    background: url("https://images.pexels.com/photos/3473569/pexels-photo-3473569.jpeg")
+      no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  
