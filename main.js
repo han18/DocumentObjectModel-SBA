@@ -26,3 +26,15 @@ for (let x = 0; x < menuLinks.length; x++) {
     aLink.innerHTML = menuLinks[x].text;
     navMenu.appendChild(aLink);
   }
+
+  // console.log(aLink)
+// =============== here is the form validation part
+
+// validating the form and clearing the input fields
+let output = document.querySelector(".message-output");
+const formReset = document.getElementById("form-validation");
+formReset.addEventListener("submit", (e) => {
+  e.preventDefault();
+  formReset.reset();
+  output.innerHTML += "Form Submitted Successfully!";
+});
