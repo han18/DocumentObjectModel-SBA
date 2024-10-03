@@ -45,6 +45,7 @@ h3 {
 
 .container {
   border: 1px solid rgba(204, 193, 193, 0.244);
+  /* height: 500px; */
   margin: 50px;
   display: flex;
   justify-content: center;
@@ -63,6 +64,7 @@ form {
   flex-direction: column;
   margin: 10px;
   padding: 10px;
+  /* border: 2px solid red; */
 }
 
 input {
@@ -74,7 +76,7 @@ input {
 .selection {
   border: 5px solid rgb(238, 237, 236);
   height: 40px;
-  width: 300px;
+  width: 350px;
 }
 
 #button-submit {
@@ -96,3 +98,7 @@ iframe {
   width: 500px;
   border: 2px solid red;
 }
+
+/* #form-validation {
+  border: 2px solid green
+} */

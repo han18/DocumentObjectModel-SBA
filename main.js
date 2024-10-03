@@ -6,6 +6,7 @@ console.log("testing");
 
 
 let menuLinks = [
+    { text: "home", href: "/home" },
     { text: "about", href: "/about" },
     { text: "catalog", href: "/catalog" },
     { text: "gallery", href: "/ gallery" },
@@ -25,6 +26,8 @@ for (let x = 0; x < menuLinks.length; x++) {
     aLink.setAttribute("href", menuLinks[x].href);
     aLink.innerHTML = menuLinks[x].text;
     navMenu.appendChild(aLink);
+    navMenu.firstElementChild.style.color = "red";
+
   }
 
   // console.log(aLink)
@@ -38,7 +41,5 @@ formReset.addEventListener("submit", (e) => {
   formReset.reset();
   output.innerHTML += "Form Submitted Successfully!";
 output.innerHTML += '<iframe src="https://giphy.com/embed/H2suj8GiLsEdk9W525" width="480" height="271" style="" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/abcnetwork-shark-tank-H2suj8GiLsEdk9W525">via GIPHY</a></p>';
-
-
 
 });
