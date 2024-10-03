@@ -16,3 +16,32 @@ flex-around {
     background-size: cover;
   }
   
+  /* nav links style  */
+  nav a {
+    line-height: 4rem;
+    padding: 0 1rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+  }
+  
+  h1 {
+    color: azure;
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+  }
+  
+  h3 {
+    color: azure;
+  }
+  
+  .container {
+    border: 1px solid rgba(193, 193, 204, 0.244);
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    /* min-height: 100vh; vh stands for viewport height */
+  }
+  
