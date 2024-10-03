@@ -26,5 +26,24 @@
             placeholder="Enter First Name"
             required
           />
+
+        <!-- enter last name-->
+        <input
+          type="text"
+          name="last-input"
+          placeholder="Enter Last Name"
+          required
+        />
+        <!-- enter user name-->
+        <input
+          type="text"
+          name="user-input"
+          min="5"
+          maxlength="10"
+          placeholder="Enter User Name"
+          pattern="^[A-Za-z][A-Za-z0-9_]{7,29}$"
+          title="Enter a username starting with a capital letter alphabets, numbers or an underscore"
+          required
+        />
   
   </body>
