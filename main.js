@@ -11,3 +11,9 @@ let menuLinks = [
     { text: "gallery", href: "/ gallery" },
     { text: "account", href: "/account" },
   ];
+
+  // calling the menu bar.. id in the html
+const navMenu = document.getElementById("menu");
+navMenu.style.height = "100%";
+navMenu.style.backgroundColor = "#0f496b4d";
+navMenu.classList.add("flex-around");
