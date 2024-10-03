@@ -17,3 +17,12 @@ const navMenu = document.getElementById("menu");
 navMenu.style.height = "100%";
 navMenu.style.backgroundColor = "#0f496b4d";
 navMenu.classList.add("flex-around");
+
+// creating an anchor element for the navbar
+for (let x = 0; x < menuLinks.length; x++) {
+    // creating new element a tag into the nav menu
+    const aLink = document.createElement("a");
+    aLink.setAttribute("href", menuLinks[x].href);
+    aLink.innerHTML = menuLinks[x].text;
+    navMenu.appendChild(aLink);
+  }
