@@ -5,3 +5,9 @@
 console.log("testing"); 
 
 
+let menuLinks = [
+    { text: "about", href: "/about" },
+    { text: "catalog", href: "/catalog" },
+    { text: "gallery", href: "/ gallery" },
+    { text: "account", href: "/account" },
+  ];
