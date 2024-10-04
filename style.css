@@ -96,7 +96,14 @@ img {
 iframe {
   height: 300px;
   width: 500px;
-  border: 2px solid red;
+  /* border: 2px solid red; */
+}
+
+#ul-footer {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  justify-content: space-around;
 }
 
 /* #form-validation {
