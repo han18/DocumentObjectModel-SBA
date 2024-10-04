@@ -1,10 +1,13 @@
 # DocumentObjectModel-SBA
 
 # This SBA is a form application that takes input from a user
-# the form clear th input 
 # most of the functionalities are in the js file 
+# the form clears the input 
+it validates  reach input
+it send a success message 
+
 
 # created a navbar 
 # a form 
-# images to implement the documentsFragment
+# text to implement the documentsFragment within the file
 
