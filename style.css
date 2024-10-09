@@ -110,3 +110,11 @@ iframe {
 /* #form-validation {
   border: 2px solid green
 } */
+
+.footer-text {
+  color: rgb(237, 130, 118);
+  text-align: center;
+  margin: auto;
+  width: 900px;
+}
+
