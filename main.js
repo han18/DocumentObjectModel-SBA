@@ -65,4 +65,5 @@ footerText.textContent = "Lorem ipsum dolor sit amet, consectetur adipiscing eli
 footerText.style.color = "#bdc3c7";
 
 
+
 })
